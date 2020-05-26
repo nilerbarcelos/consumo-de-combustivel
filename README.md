@@ -1,5 +1,5 @@
 # Ficticius Clean
-API Rest de cadastro de veículos e cálculo da previsão de gastos com combusteivel.
+API Rest de cadastro de veículos e cálculo da previsão de gastos com combustível.
 
 ### Clone do Projeto
 
