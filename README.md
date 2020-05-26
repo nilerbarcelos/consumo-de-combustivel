@@ -1,5 +1,5 @@
 # Ficticius Clean
-API Rest de cadastro de veículos para armazenar os veículos utilizados pela empresa.
+API Rest de cadastro de veículos e cálculo da previsão de gastos com combusteivel.
 
 ### Clone do Projeto
 
