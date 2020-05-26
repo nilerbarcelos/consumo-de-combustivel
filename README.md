@@ -11,6 +11,7 @@ git clone git@github.com:nilerbarcelos/ficticius-clean.git
 Pela linha de comando, acessar a pasta do projeto clonado e executar o comando:
 
 ```
+mvn clean install
 mvn test
 ```
 
