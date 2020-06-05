@@ -1,10 +1,10 @@
-# Ficticius Clean
+# Consumo de combustível 
 API Rest de cadastro de veículos e cálculo da previsão de gastos com combustível.
 
 ### Clone do Projeto
 
 ```
-git clone git@github.com:nilerbarcelos/ficticius-clean.git
+git clone git@github.com:nilerbarcelos/consumo-de-combustivel.git
 ```
 
 ## Executar os Testes
