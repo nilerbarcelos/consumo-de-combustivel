@@ -35,10 +35,10 @@ public class Vehicle {
     private LocalDate manufactureDate;
 
     @Column(name = "cityConsumption")
-    private Float cityConsumption;
+    private BigDecimal cityConsumption;
 
     @Column(name = "highwayConsumption")
-    private Float highwayConsumption;
+    private BigDecimal highwayConsumption;
 
     public Vehicle() {
     }
@@ -94,19 +94,19 @@ public class Vehicle {
         this.manufactureDate = manufactureDate;
     }
 
-    public Float getCityConsumption() {
+    public BigDecimal getCityConsumption() {
         return cityConsumption;
     }
 
-    public void setCityConsumption(Float cityConsumption) {
+    public void setCityConsumption(BigDecimal cityConsumption) {
         this.cityConsumption = cityConsumption;
     }
 
-    public Float getHighwayConsumption() {
+    public BigDecimal getHighwayConsumption() {
         return highwayConsumption;
     }
 
-    public void setHighwayConsumption(Float highwayConsumption) {
+    public void setHighwayConsumption(BigDecimal highwayConsumption) {
         this.highwayConsumption = highwayConsumption;
     }
 }
