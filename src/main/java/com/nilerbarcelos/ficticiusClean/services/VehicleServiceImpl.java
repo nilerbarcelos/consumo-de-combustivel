@@ -34,7 +34,7 @@ public class VehicleServiceImpl implements VehicleService {
     }
 
     @Override
-    public List<VehicleResponse> compute(float price, float city, float highway) {
+    public List<VehicleResponse> compute(BigDecimal price, BigDecimal city, BigDecimal highway) {
         List<Vehicle> allVehicles = vehicleRepository.findAll();
 
         List<VehicleResponse> computedVehicles = allVehicles.stream().map(vehicle -> {
