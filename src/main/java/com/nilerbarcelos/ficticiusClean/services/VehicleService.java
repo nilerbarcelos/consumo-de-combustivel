@@ -8,5 +8,5 @@ import java.util.List;
 public interface VehicleService {
 
     VehicleResponse insert(Vehicle vehicle);
-    List<VehicleResponse> compute(float price, float city, float highway);
+    List<VehicleResponse> compute(BigDecimal price, BigDecimal city, BigDecimal highway);
 }
